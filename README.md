@@ -1,19 +1,80 @@
-GSoc-BMS is a user-friendly platform for students to interact and share their
-grievances with the management committee of BMSIT Bangalore by uploading it in
-the form of petitions to the associated departments.
+# GSoc-BMS
 
-This application allows its users to check real time status of the petitions filed
-regarding any academic or non-academic issue that the individual is facing. At the
-same time, it also enables the admin (college administration) to respond on the
-petition uploaded by the user and update the status of the petition in the order:
-PENDING -> IN PROGRESS -> RESOLVED.
+GSoc-BMS is a user-friendly platform designed for students of BMSIT Bangalore to raise, track, and address their grievances with the college management committee. The platform allows students to submit their issues in the form of petitions, which are routed to the appropriate departments for resolution.
 
-The app also provides a ‘Security Alert’ feature which enables the user to send a
-distress signal whenever the individual faces some kind of threat. Using this
-feature, the user can notify others (students & college administration) about the
-same by sending their current location with the help of the app and thus, ensure
-their safety on and off the college campus!
 
-Overall, GSocBMS provides a more efficient process to deal with our day-to-day
-problems on campus and makes the process of dealing with such grievances much
-simpler.
+
+![image](https://github.com/user-attachments/assets/5de35407-f6db-4999-8910-37f7a13eb072)
+
+
+# GSoc-BMS Features
+
+## 1. Petition Submission and Tracking
+
+- **Submit Petitions**: Students can submit petitions on any academic or non-academic issues.
+- **Real-Time Status Updates**: Users can check the status of their petitions in real time as they progress through the stages:
+  - **PENDING ➔ IN PROGRESS ➔ RESOLVED**
+- **Admin Responses**: College administrators can review petitions, respond directly, and update their status as they progress towards resolution.
+
+## 2. Security Alert System
+
+- **Distress Signal**: A unique feature enabling users to send a distress signal to notify other students and the college administration in case of emergencies.
+- **Location Sharing**: Users can send their current location, ensuring timely help and enhanced security on and off campus.
+
+## 3. User-Friendly Interface
+
+- **Intuitive Design**: Easy-to-navigate interface, making it convenient for students to raise and track issues without technical complexities.
+
+## 4. Enhanced Communication
+
+- **Direct Connection with Administration**: The app bridges the gap between students and college administration, ensuring transparency and quicker response times.
+- **Efficient Grievance Redressal**: Streamlined grievance handling, reducing delays and making the process more effective.
+
+
+
+
+
+
+# Technology Stack
+
+- **Frontend**: Android (Java/Kotlin)
+- **Backend**: Firebase for real-time database, notifications, and user authentication
+- **Location Services**: Google Maps API for location sharing in the Security Alert feature
+
+# Getting Started
+
+## Prerequisites
+
+- **Android Studio**: Set up Android Studio on your machine.
+- **Firebase Project**: Create a Firebase project and add the configuration file to integrate Firebase services.
+
+
+
+Installation
+Clone the Repository:
+```bash
+git clone https://github.com/YourUsername/GSoc-BMS.git
+```
+
+### Open in Android Studio
+
+Launch **Android Studio** and open the cloned project.
+
+### Firebase Integration
+
+Follow Firebase’s setup instructions to configure Firebase for the project.
+
+### Run the Application
+
+Connect an Android device or use an emulator, and run the app.
+
+
+
+# License
+
+This project is licensed under the MIT License.
+
+
+
+
+
