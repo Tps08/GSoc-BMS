@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "707625840373",
+    "project_id": "gsocbms",
+    "storage_bucket": "gsocbms.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707625840373:android:a16623168375551bcfdfbc",
+        "android_client_info": {
+          "package_name": "com.tps.gsocbms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "707625840373-34vcc36013u2fm5n7v8kb5keomd8jkcc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe8_ufhUeiAKB1jRuor0Oa-DTpOlAIJBs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "707625840373-34vcc36013u2fm5n7v8kb5keomd8jkcc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

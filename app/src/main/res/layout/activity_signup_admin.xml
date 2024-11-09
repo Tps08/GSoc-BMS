@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#fff"
+    tools:context=".signup_admin">
+
+    <ProgressBar
+        android:id="@+id/progressBar_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/MainColord"
+        android:indeterminateTintMode="src_atop"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            >
+
+            <Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:background="@color/black"
+                android:title="GSocBMS"
+                android:titleTextColor="@color/white"
+                app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:targetApi="m" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/bmsitlogo"
+                android:layout_marginTop="7dp"
+                android:contentDescription="@string/todo2" />
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginHorizontal="18dp"
+                android:layout_marginBottom="12dp"
+                android:text="@string/admin_sign_up"
+                android:textColor="@color/black"
+                android:textSize="36sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+                android:layout_marginHorizontal="18dp"
+                android:layout_gravity="start"
+                android:textSize="22sp"
+                android:layout_marginBottom="8dp"/>
+
+            <EditText
+                android:id="@+id/name_admin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="18dp"
+                android:hint="@string/full_name"
+                android:padding="14dp"
+                android:background="@drawable/edit_text_round"
+                android:autofillHints=""
+                 />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/e_mail_id1"
+                android:layout_marginHorizontal="18dp"
+                android:layout_gravity="start"
+                android:textSize="22sp"
+                android:layout_marginBottom="8dp"/>
+
+            <EditText
+                android:id="@+id/emailAddress_admin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="18dp"
+                android:background="@drawable/edit_text_round"
+                android:hint="@string/xyz_bmsit_n"
+                android:inputType="textEmailAddress"
+                android:padding="14dp"
+                android:autofillHints="" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password:"
+                android:layout_marginHorizontal="18dp"
+                android:layout_gravity="start"
+                android:textSize="22sp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="12dp"/>
+
+            <EditText
+                android:id="@+id/password_signup_admin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="18dp"
+                android:hint="@string/more_than_6_characters"
+                android:padding="14dp"
+                android:inputType="textPassword"
+                android:background="@drawable/edit_text_round"
+                android:autofillHints="" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/SignUpButton_admin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="18dp"
+                android:layout_marginVertical="12dp"
+                android:layout_marginTop="17dp"
+                android:background="@color/black"
+                android:paddingVertical="16dp"
+                android:text="@string/signup"
+                android:textAllCaps="false"
+                android:textColor="#FDD835"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/backtologin_admin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Already have an account? Sign In"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"
+                android:textSize="19sp"
+                android:layout_marginTop="7dp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,2 @@
+rootProject.name = "GSocBMS"
+include ':app'
